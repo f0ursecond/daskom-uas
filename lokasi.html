@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lokasi Wisata</title>
     <style>
-        /* General body and text styles */
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
         body {
-            font-family: Arial, sans-serif;
+            font-family: "Poppins", serif;
             background-color: #f8f8f8;
             margin: 0;
             padding: 0;
@@ -44,7 +45,7 @@
             /* Light red background */
             margin: 5px;
             padding: 10px;
-            border-radius: 5px;
+            border-radius: 10px;
             transition: background-color 0.3s ease;
         }
 
@@ -60,6 +61,7 @@
             /* Red text color for links */
             text-decoration: none;
         }
+
 
         a:hover {
             text-decoration: underline;
@@ -77,7 +79,7 @@
         h2 {
             text-align: center;
             margin: 20px 0;
-            font-size: 36px;
+            font-size: 28px;
             color: #b22222;
             /* Warna merah tua */
             font-weight: bold;
@@ -129,7 +131,6 @@
             display: none;
             position: absolute;
             top: 100%;
-            /* Ensures it aligns right under the button */
             left: 0;
             background-color: #fff;
             min-width: 160px;
@@ -163,13 +164,19 @@
             opacity: 1;
             transform: translateY(0);
         }
+
+        .page1 {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
     </style>
 </head>
 
 <body>
+    <h2>Berbagai Macam Destinasi di Kota Semarang</h2>
     <h4>
         <a href="index.html">Beranda</a>
-        <a href=" lokasi.html " style="background-color: #b22222; color: white;">Destinasi</a>
+        <a href="lokasi.html" style="background-color: #b22222; color: white;">Destinasi</a>
         <a href=" kuliner.html">Kuliner</a>
 
         <div class="dropdown">
@@ -186,24 +193,72 @@
     <p>Ini adalah deskripsi singkat mengenai lokasi wisata yang kami rekomendasikan.</p>
 
     <ul class="page1">
-        <li>Tempat 1</li>
-        <li>Tempat 2</li>
-        <li>Tempat 3</li>
-        <li>Tempat 4</li>
-        <li>Tempat 5</li>
-        <li>Dan lain-lain</li>
+        <li>
+            <div style="display: flex;">
+                <img src="gambar/sampo_kong.jpg" width="35%" style="border-radius: 10px;"><img>
+                <p>Sam Poo Kong adalah salah satu klenteng tertua dan paling terkenal di Semarang. Bukan hanya sebagai
+                    tempat ibadah, Sam Poo Kong juga menyimpan sejarah panjang dan kaya akan nilai budaya. Nama Sam Poo
+                    Kong sendiri diambil dari nama Laksamana Cheng Ho, seorang penjelajah Muslim dari China yang konon
+                    pernah singgah di tempat ini pada abad ke-15.
+                </p>
+            </div>
+        </li>
+        <li>
+            <div style="display: flex;">
+                <img src="gambar/kota_lama.jpg" width="35%" style="border-radius: 10px;"><img>
+                <p>
+                    Kota Lama Semarang adalah kawasan bersejarah yang terletak di jantung kota Semarang. Dulu dikenal
+                    sebagai "Oude Stad" atau "Kota Tua", kawasan ini menyimpan banyak bangunan bersejarah peninggalan
+                    kolonial Belanda. Arsitekturnya yang khas Eropa, terutama Belanda, menjadi daya tarik utama bagi
+                    wisatawan yang berkunjung ke Semarang.
+                </p>
+            </div>
+        </li>
+        <li>
+            <div style="display: flex;">
+                <img src="gambar/watugong.jpg" width="35%" style="border-radius: 10px;"><img>
+                <p>
+                    Watugong Semarang adalah kompleks wisata religi yang sangat populer di Jawa Tengah. Terkenal dengan
+                    Pagoda Avalokitesvara-nya yang menjulang tinggi, Watugong menjadi salah satu ikon kota Semarang.
+                    Pagoda ini merupakan pagoda tertinggi di Indonesia dengan tinggi mencapai 45 meter dan memiliki 7
+                    tingkat.
+                </p>
+            </div>
+        </li>
+        <li>
+            <div style="display: flex;">
+                <img src="gambar/candi_gedong_songo.jpg" width="35%" style="border-radius: 10px;"><img>
+                <p>
+                    Candi Gedong Songo adalah kompleks candi Hindu yang terletak di lereng Gunung Ungaran, Semarang.
+                    Nama "Gedong Songo" sendiri berarti "sembilan bangunan", meskipun jumlah candi yang ditemukan tidak
+                    persis sembilan. Candi-candi ini dibangun pada abad ke-8 Masehi oleh Wangsa Syailendra, sebuah
+                    dinasti yang sangat berpengaruh dalam sejarah Jawa.
+                </p>
+            </div>
+        </li>
+        <li>
+            <div style="display: flex;">
+                <img src="gambar/mawar_camp.jpg" width="35%" style="border-radius: 10px;"><img>
+                <p>
+                    Mawar Camp Bandungan adalah destinasi wisata alam yang populer di Kabupaten Semarang. Terletak di
+                    kaki Gunung Ungaran, tempat ini menawarkan pengalaman berkemah yang menyenangkan dengan pemandangan
+                    alam yang menakjubkan. Udara sejuk pegunungan dan suasana yang tenang menjadi daya tarik utama bagi
+                    para pengunjung.
+                </p>
+            </div>
+        </li>
+        <li>
+            <div style="display: flex;">
+                <img src="gambar/sidomukti.png" width="35%" style="border-radius: 10px;"><img>
+                <p>
+                    Umbul Sido Mukti adalah destinasi wisata alam yang populer di Semarang, Jawa Tengah. Terletak di
+                    lereng Gunung Ungaran, tempat ini menawarkan kesegaran air alami dan keindahan alam pegunungan yang
+                    menakjubkan. Nama "Umbul" sendiri dalam bahasa Jawa berarti mata air, yang merujuk pada sumber air
+                    alami yang menjadi daya tarik utama tempat ini.
+                </p>
+            </div>
+        </li>
     </ul>
-
-    <p>Ini beberapa link yang saya kumpulkan:</p>
-    <ul>
-        <li><a href="https://maps.app.goo.gl/2NSBSKDoPQ7GvSGc9" target="_blank">Sam Poo Kong</a></li>
-        <li><a href="https://maps.app.goo.gl/ypJDq2EFcdkL8Fft5" target="_blank">Goa Kreo</a></li>
-        <li><a href="#" target="_blank">Lokasi Lain 1</a></li>
-        <li><a href="#" target="_blank">Lokasi Lain 2</a></li>
-        <li><a href="#" target="_blank">Lokasi Lain 3</a></li>
-        <li><a href="#" target="_blank">Lokasi Lain 4</a></li>
-    </ul>
-
 </body>
 
 <footer>
