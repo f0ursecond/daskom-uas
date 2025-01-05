@@ -1,11 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        h2 {
+            text-align: center;
+            margin: 20px 0;
+            font-size: 36px;
+            color: #b22222;
+            /* Warna merah tua */
+            font-weight: bold;
+        }
+
+        h4 {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        h4 a {
+            text-decoration: none;
+            color: #b22222;
+            margin: 0 10px;
+            padding: 8px 15px;
+            border: 2px solid #b22222;
+            border-radius: 20px;
+            transition: all 0.3s ease;
+        }
+
+        h4 a:hover {
+            background-color: #b22222;
+            color: #fff;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropbtn {
+            text-decoration: none;
+            color: #b22222;
+            margin: 0 10px;
+            padding: 8px 15px;
+            border: 2px solid #b22222;
+            border-radius: 20px;
+            background-color: #fff;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .dropbtn:hover {
+            background-color: #8b0000;
+            color: #fff;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            top: 100%;
+            /* Ensures it aligns right under the button */
+            left: 0;
+            background-color: #fff;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            border-radius: 10px;
+            overflow: hidden;
+            padding: 10px;
+            margin-top: 10px;
+            opacity: 0;
+            transform: translateY(10px);
+            transition: opacity 0.3s ease, transform 0.3s ease;
+        }
+
+        .dropdown-content a {
+            color: #757575;
+            padding: 12px 16px;
+            text-decoration: none;
+            margin-bottom: 10px;
+            display: block;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+            color: #b22222;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
 </head>
+
 <body>
-    
+    <h4>
+        <a href="index.html">Beranda</a>
+        <a href=" lokasi.html ">Destinasi</a>
+        <a href=" kuliner.html" style="background-color: #b22222; color: white;">Kuliner</a>
+
+        <div class="dropdown">
+            <a class="dropbtn">Kategori</a>
+            <div class="dropdown-content">
+                <a href="populer.html">Populer</a>
+                <a href="rekomendasi.html">Rekomendasi</a>
+                <a href="tersembunyi.html">Tersembunyi</a>
+            </div>
+        </div>
+    </h4>
+
+
 </body>
+
 </html>
