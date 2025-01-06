@@ -113,4 +113,23 @@ h4 a:hover {
     padding: 0;
     background-color: transparent;
   }
- 
+  .content-list li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #2e8196;
+    border-radius: 5px;
+    justify-content: right;
+  }
+  .content-list li:hover {
+    background: #444; /* Efek hover */
+    color: white;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+  }
+  .content-image {
+  max-width: 300px;
+  display: block;
+  margin: 10px auto;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
