@@ -114,7 +114,7 @@ h4 a:hover {
 }
 
 .image {
-    margin-right: 20px;
+    margin-right: 40px;
 }
 
 .text {
@@ -125,15 +125,27 @@ h4 a:hover {
 }
 
 img {
-    width: 200px;
-    height: auto;
+    width: 400px;
+    height: 303px;
     border-radius: 10px;
-    background-color: #b22222;
+    background-color: #b22222; 
+    border-radius: 10px;
+    padding: auto;
+    
 }
 
 .page1 {
     padding: 20px;
 }
-.h{
-    text-align: end;
+dd{
+    text-align: justify;
+    border-color: #757575;
+    color: #b22222;
+    margin-left: 22px;
+    padding-left: 2px;
+    font-size: 22px;
+    background-color: #757575;
+}
+h{
+    color: #8b0000;
 }
