@@ -128,7 +128,7 @@ img {
     width: 400px;
     height: 303px;
     border-radius: 10px;
-    background-color: #b22222; 
+    background-color: #463c3c; 
     border-radius: 10px;
     padding: auto;
     
@@ -140,11 +140,10 @@ img {
 dd{
     text-align: justify;
     border-color: #757575;
-    color: #b22222;
     margin-left: 22px;
     padding-left: 2px;
     font-size: 22px;
-    background-color: #757575;
+    color: #b22222;
 }
 h{
     color: #8b0000;
