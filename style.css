@@ -1,5 +1,150 @@
-.p background {
-    color: red;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 36px;
+    color: #b22222;
+    /* Warna merah tua */
+    font-weight: bold;
+}
+
+h4 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+h4 a {
+    text-decoration: none;
+    color: #b22222;
+    margin: 0 10px;
+    padding: 8px 15px;
+    border: 2px solid #b22222;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+h4 a:hover {
+    background-color: #b22222;
+    color: #fff;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.h41 {
+    text-align: justify;
+}
+
+.dropbtn {
+    text-decoration: none;
+    color: #b22222;
+    margin: 0 10px;
+    padding: 8px 15px;
+    border: 2px solid #b22222;
+    border-radius: 20px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.dropbtn:hover {
+    background-color: #8b0000;
+    color: #fff;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    /* Ensures it aligns right under the button */
+    left: 0;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 10px;
+    overflow: hidden;
     padding: 10px;
-    padding-bottom: 20px;
+    margin-top: 10px;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.dropdown-content a {
+    color: #757575;
+    padding: 12px 16px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    color: #b22222;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.bawah {
+    text-align: center;
+    color: #e4dbdb;
+    background-color: #b22222;
+}
+
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+.image {
+    margin-right: 40px;
+}
+
+.text {
+
+    margin-left: 40px;
+    max-width: 1000px;
+    background-color: #b22222;
+}
+
+img {
+    width: 400px;
+    height: 303px;
+    border-radius: 10px;
+    background-color: #463c3c; 
+    border-radius: 10px;
+    padding:left 20px;
+    
+}
+
+.page1 {
+    padding: 20px;
+}
+dd{
+    text-align: justify;
+    border-color: #757575;
+    margin-left: 22px;
+    padding-left: 2px;
+    font-size: 22px;
+    color: #b22222;
+}
+h{
+    color: #8b0000;
 }
