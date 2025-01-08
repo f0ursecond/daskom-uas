@@ -180,15 +180,28 @@
     <h2>Berbagai Macam Destinasi di Kota Semarang</h2>
     <h4>
         <a href="index.html">Beranda</a>
-        <a href="lokasi.html" style="background-color: #b22222; color: white;">Destinasi</a>
-        <a href=" kuliner.html">Kuliner</a>
+        <div class="dropdown">
+            <a class="dropbtn">Destinasi</a>
+            <div class="dropdown-content">
+                <a href="lokasi.html">Semua Destinasi</a>
+                <a href="rekomendasi.html">Kabupaten Semarang</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <a class="dropbtn">Kuliner</a>
+            <div class="dropdown-content">
+                <a href="kuliner.html">Populer</a>
+                <a href="kuliner_malam.html">Kuliner Malam</a>
+            </div>
+        </div>
 
         <div class="dropdown">
             <a class="dropbtn">Kategori</a>
             <div class="dropdown-content">
-                <a href="populer.html">Populer</a>
+                <a href="index.html/">Populer</a>
                 <a href="rekomendasi.html">Rekomendasi</a>
-                <a href="tersembunyi.html">Tersembunyi</a>
+                <a href="tersembunyi.">Tersembunyi</a>
             </div>
         </div>
     </h4>
@@ -200,7 +213,8 @@
         <li>
             <div style="display: flex;">
                 <img src="gambar/sampo_kong.jpg" width="35%" style="border-radius: 10px;"><img>
-                <p><b>Sam Poo Kong</b> adalah salah satu klenteng tertua dan paling terkenal di Semarang. Bukan hanya sebagai
+                <p><b>Sam Poo Kong</b> adalah salah satu klenteng tertua dan paling terkenal di Semarang. Bukan hanya
+                    sebagai
                     tempat ibadah, Sam Poo Kong juga menyimpan sejarah panjang dan kaya akan nilai budaya. Nama Sam Poo
                     Kong sendiri diambil dari nama Laksamana Cheng Ho, seorang penjelajah Muslim dari China yang konon
                     pernah singgah di tempat ini pada abad ke-15. <br><br><br>
@@ -212,7 +226,8 @@
             <div style="display: flex;">
                 <img src="gambar/kota_lama.jpg" width="35%" style="border-radius: 10px;"><img>
                 <p>
-                    <B>Kota Lama Semarang</B> adalah kawasan bersejarah yang terletak di jantung kota Semarang. Dulu dikenal
+                    <B>Kota Lama Semarang</B> adalah kawasan bersejarah yang terletak di jantung kota Semarang. Dulu
+                    dikenal
                     sebagai "Oude Stad" atau "Kota Tua", kawasan ini menyimpan banyak bangunan bersejarah peninggalan
                     kolonial Belanda. Arsitekturnya yang khas Eropa, terutama Belanda, menjadi daya tarik utama bagi
                     wisatawan yang berkunjung ke Semarang.<br><br><br>
@@ -224,7 +239,8 @@
             <div style="display: flex;">
                 <img src="gambar/watugong.jpg" width="35%" style="border-radius: 10px;"><img>
                 <p>
-                    <b>Watugong Semarang</b> adalah kompleks wisata religi yang sangat populer di Jawa Tengah. Terkenal dengan
+                    <b>Watugong Semarang</b> adalah kompleks wisata religi yang sangat populer di Jawa Tengah. Terkenal
+                    dengan
                     Pagoda Avalokitesvara-nya yang menjulang tinggi, Watugong menjadi salah satu ikon kota Semarang.
                     Pagoda ini merupakan pagoda tertinggi di Indonesia dengan tinggi mencapai 45 meter dan memiliki 7
                     tingkat.<br><br><br>
@@ -236,7 +252,8 @@
             <div style="display: flex;">
                 <img src="gambar/candi_gedong_songo.jpg" width="35%" style="border-radius: 10px;"><img>
                 <p>
-                    <b>Candi Gedong Songo</b> adalah kompleks candi Hindu yang terletak di lereng Gunung Ungaran, Semarang.
+                    <b>Candi Gedong Songo</b> adalah kompleks candi Hindu yang terletak di lereng Gunung Ungaran,
+                    Semarang.
                     Nama "Gedong Songo" sendiri berarti "sembilan bangunan", meskipun jumlah candi yang ditemukan tidak
                     persis sembilan. Candi-candi ini dibangun pada abad ke-8 Masehi oleh Wangsa Syailendra, sebuah
                     dinasti yang sangat berpengaruh dalam sejarah Jawa.<br><br><br>
@@ -248,7 +265,8 @@
             <div style="display: flex;">
                 <img src="gambar/mawar_camp.jpg" width="35%" style="border-radius: 10px;"><img>
                 <p id="mwr">
-                    <b>Mawar Camp Bandungan</b> adalah destinasi wisata alam yang populer di Kabupaten Semarang. Terletak di
+                    <b>Mawar Camp Bandungan</b> adalah destinasi wisata alam yang populer di Kabupaten Semarang.
+                    Terletak di
                     kaki Gunung Ungaran, tempat ini menawarkan pengalaman berkemah yang menyenangkan dengan pemandangan
                     alam yang menakjubkan. Udara sejuk pegunungan dan suasana yang tenang menjadi daya tarik utama bagi
                     para pengunjung.<br><br><br>
@@ -260,7 +278,8 @@
             <div style="display: flex;">
                 <img src="gambar/sidomukti.png" width="35%" style="border-radius: 10px;"><img>
                 <p>
-                    <b>Umbul Sido Mukti</b> adalah destinasi wisata alam yang populer di Semarang, Jawa Tengah. Terletak di
+                    <b>Umbul Sido Mukti</b> adalah destinasi wisata alam yang populer di Semarang, Jawa Tengah. Terletak
+                    di
                     lereng Gunung Ungaran, tempat ini menawarkan kesegaran air alami dan keindahan alam pegunungan yang
                     menakjubkan. Nama "Umbul" sendiri dalam bahasa Jawa berarti mata air, yang merujuk pada sumber air
                     alami yang menjadi daya tarik utama tempat ini.<br><br><br>
@@ -271,26 +290,38 @@
         <li>
             <div style="display: flex;">
                 <img src="gambar/lawang_sewu.jpg" width="35%" style="border-radius: 10px;"><img>
-                <p><b>Lawang Sewu</b> merupakan salah satu bangunan bersejarah yang berada di Kota Semarang, Jawa Tengah. Lokasi tepatnya adalah terletak di seberang Tugu Muda. Lawang Sewu saat ini difungsikan sebagai museum dan galeri sejarah perkeretaapian oleh PT Kereta Api Indonesia (KAI). Gedung Lawang Sewu juga berdekatan dengan objek wisata lain di Kawasan Tugu Muda Semarang, seperti Museum Perjuangan Mandala Bhakti, Gereja Katedral, dan Kampung Pelangi. <br><br><br>
-                Info Lebih Lanjut: klik <a href="https://maps.app.goo.gl/qi4cUh8mDHBkX6Dd9">di sini</a>
+                <p><b>Lawang Sewu</b> merupakan salah satu bangunan bersejarah yang berada di Kota Semarang, Jawa
+                    Tengah. Lokasi tepatnya adalah terletak di seberang Tugu Muda. Lawang Sewu saat ini difungsikan
+                    sebagai museum dan galeri sejarah perkeretaapian oleh PT Kereta Api Indonesia (KAI). Gedung Lawang
+                    Sewu juga berdekatan dengan objek wisata lain di Kawasan Tugu Muda Semarang, seperti Museum
+                    Perjuangan Mandala Bhakti, Gereja Katedral, dan Kampung Pelangi. <br><br><br>
+                    Info Lebih Lanjut: klik <a href="https://maps.app.goo.gl/qi4cUh8mDHBkX6Dd9">di sini</a>
                 </p>
             </div>
         </li>
         <li>
             <div style="display: flex;">
                 <img src="gambar/kampungpelangi.jpg" width="35%" style="border-radius: 10px;"><img>
-                <p><b>Kampung Pelangi</b> merupakan salah satu bangunan bersejarah yang berada di Kota Semarang, Jawa Tengah. Lokasi tepatnya adalah terletak di seberang Tugu Muda. Lawang Sewu saat ini difungsikan sebagai museum dan galeri sejarah perkeretaapian oleh PT Kereta Api Indonesia (KAI). Gedung Lawang Sewu juga berdekatan dengan objek wisata lain di Kawasan Tugu Muda Semarang, seperti Museum Perjuangan Mandala Bhakti, Gereja Katedral, dan Kampung Pelangi. <br><br><br>
-                Info Lebih Lanjut: klik <a href="https://maps.app.goo.gl/XxKxZPjHfoa51uij6">di sini</a>
+                <p><b>Kampung Pelangi</b> merupakan salah satu bangunan bersejarah yang berada di Kota Semarang, Jawa
+                    Tengah. Lokasi tepatnya adalah terletak di seberang Tugu Muda. Lawang Sewu saat ini difungsikan
+                    sebagai museum dan galeri sejarah perkeretaapian oleh PT Kereta Api Indonesia (KAI). Gedung Lawang
+                    Sewu juga berdekatan dengan objek wisata lain di Kawasan Tugu Muda Semarang, seperti Museum
+                    Perjuangan Mandala Bhakti, Gereja Katedral, dan Kampung Pelangi. <br><br><br>
+                    Info Lebih Lanjut: klik <a href="https://maps.app.goo.gl/XxKxZPjHfoa51uij6">di sini</a>
                 </p>
             </div>
         </li>
         <li>
-        <div style="display: flex;">
-            <img src="gambar/ranggawarsita.jpg" width="35%" style="border-radius: 10px;"><img>
-            <p><b>Museum Ronggoswarsito</b> adalah salah satu tempat wisata yang menyimpan sejarah menarik dari tanah Jawa yang harus dikunjungi. Banyak benda-benda unik bersejarah warisan budaya nusantara bisa anda temukan disini. Tidak hanya itu, beragam koleksi kekayaan alam, arkeologi, kebudayaan, dan wawasan nusantara. Museum ini cocok menjadi jujugan wisata anda bersama keluarga dan teman sambil belajar sejarah.  <br><br><br>
-                Info Lebih Lanjut: klik <a href="https://maps.app.goo.gl/uVaCwjy17zreE3SW9">di sini</a>
-            </p>
-        </div>
+            <div style="display: flex;">
+                <img src="gambar/ranggawarsita.jpg" width="35%" style="border-radius: 10px;"><img>
+                <p><b>Museum Ronggoswarsito</b> adalah salah satu tempat wisata yang menyimpan sejarah menarik dari
+                    tanah Jawa yang harus dikunjungi. Banyak benda-benda unik bersejarah warisan budaya nusantara bisa
+                    anda temukan disini. Tidak hanya itu, beragam koleksi kekayaan alam, arkeologi, kebudayaan, dan
+                    wawasan nusantara. Museum ini cocok menjadi jujugan wisata anda bersama keluarga dan teman sambil
+                    belajar sejarah. <br><br><br>
+                    Info Lebih Lanjut: klik <a href="https://maps.app.goo.gl/uVaCwjy17zreE3SW9">di sini</a>
+                </p>
+            </div>
         </li>
     <li>
         <div style="display: flex;">
